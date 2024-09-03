@@ -1,7 +1,7 @@
 library(GA)
 
 f <- function(x) {
-  return(x^3)
+  return(x^2 - 4*x + 4)  
 }
 
 ga_min <- ga(type = "real-valued",
