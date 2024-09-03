@@ -2,10 +2,10 @@ custom_function <- function(x) {
   return(x^2 - 4*x + 4)  
 }
 
-population_size <- 20
-num_generations <- 10000
-mutation_rate <- 0.01
-crossover_rate <- 0.4
+population_size <- 150
+num_generations <- 50000
+mutation_rate <- 0.05
+crossover_rate <- 0.7
 lower_bound <- -10
 upper_bound <- 10
 
